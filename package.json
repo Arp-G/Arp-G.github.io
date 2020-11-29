@@ -4,7 +4,8 @@
   "description": "",
   "main": "js/scripts.js",
   "scripts": {
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "scss": "node-sass --watch scss -o css"
   },
   "keywords": [
     "portfolio",

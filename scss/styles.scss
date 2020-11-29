@@ -345,15 +345,28 @@ footer {
     --------------------------
 */
 
+@keyframes animatedBackground {
+  from {
+     background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
 #lead {
     position: relative;
     height: 100vh;
+    width: 100%;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
-    background-size: cover;
+    background: url(../images/lead-mybg.jpg);
+    background-position: 0px 0px;
+    background-size: contain;
     padding: 15px;
     overflow: hidden;
+    background-repeat: repeat-x;
+    animation: animatedBackground 20s linear infinite reverse;
 }
 
 #lead-content {
@@ -652,12 +665,10 @@ footer {
 
 .project-image {
     float: left;
+    height: 200px;
 }
 
 .project-info {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
 
