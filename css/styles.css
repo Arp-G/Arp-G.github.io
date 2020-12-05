@@ -14,17 +14,19 @@
     File Contents:
 
         1. Variables
-        2. Mixins
-        3. Global Styles
-        4. Lead Styles
-        5. About Styles
-        6. Experience Styles
-        7. Education Styles
-        8. Project Styles
-        9. Skills Styles
-        10. Contact Styles
-        11. Optional Section Styles
-        12. Media Queries
+        2. Imports
+        3. Mixins
+        4. Global Styles
+        5. Lead Styles
+        6. About Styles
+        7. Experience Styles
+        8. Education Styles
+        9. Project Styles
+        10. Skills Styles
+        11. Blogs
+        12. Contact Styles
+        13. Optional Section Styles
+        14. Media Queries
 */
 /*
     ------------------------
@@ -32,8 +34,13 @@
     ------------------------
 */
 /*
+    ------------------------
+    ----- 2. Imports -----
+    ------------------------
+*/
+/*
     ---------------------
-    ----- 2. Mixins -----
+    ----- 3. Mixins -----
     ---------------------
 */
 /*
@@ -228,28 +235,20 @@ footer {
 
 /*
     --------------------------
-    ----- 4. Lead Styles -----
+    ----- 5. Lead Styles -----
     --------------------------
 */
-@keyframes animatedBackground {
-  from {
-    background-position: 0 0; }
-  to {
-    background-position: 100% 0; } }
-
 #lead {
   position: relative;
   height: 100vh;
   width: 100%;
   min-height: 500px;
   max-height: 1080px;
-  background: url(../images/lead-mybg.jpg);
+  background: url(../images/background.gif);
   background-position: 0px 0px;
   background-size: contain;
   padding: 15px;
-  overflow: hidden;
-  background-repeat: repeat-x;
-  animation: animatedBackground 20s linear infinite reverse; }
+  overflow: hidden; }
 
 #lead-content {
   position: absolute;
@@ -317,7 +316,7 @@ footer {
 
 /*
     ---------------------------
-    ----- 5. About Styles -----
+    ----- 6. About Styles -----
     ---------------------------
 */
 #about {
@@ -331,7 +330,7 @@ footer {
 
 /*
     --------------------------------
-    ----- 6. Experience Styles -----
+    ----- 7. Experience Styles -----
     --------------------------------
 */
 #experience {
@@ -421,7 +420,7 @@ footer {
 
 /*
     -------------------------------
-    ----- 7. Education Styles -----
+    ----- 8. Education Styles -----
     -------------------------------
 */
 #education {
@@ -460,7 +459,7 @@ footer {
 
 /*
     -------------------------------
-    ----- 8. Project Styles -----
+    ----- 9. Project Styles -----
     -------------------------------
 */
 #projects {
@@ -507,7 +506,7 @@ footer {
 
 /*
     -------------------------------
-    ----- 9. Skills Styles -----
+    ----- 10. Skills Styles -----
     -------------------------------
 */
 #skills {
@@ -530,10 +529,25 @@ footer {
     list-style: none;
     cursor: default;
     font-size: 1.2em; }
+  #skills .skill-img {
+    width: 25px;
+    height: 25px; }
 
 /*
     -------------------------------
-    ----- 10. Contact Styles -----
+    ----- 11. Blogs Styles -----
+    -------------------------------
+*/
+#blogs {
+  padding: 50px 15px;
+  text-align: center; }
+  #blogs h2 {
+    color: #374054;
+    margin-bottom: 50px; }
+
+/*
+    -------------------------------
+    ----- 12. Contact Styles -----
     -------------------------------
 */
 #contact {
@@ -590,7 +604,7 @@ footer {
 
 /*
     ---------------------------------------
-    ----- 11. Optional Section Styles -----
+    ----- 13. Optional Section Styles -----
     ---------------------------------------
 */
 .optional-section {
@@ -625,7 +639,7 @@ footer {
 
 /*
     -----------------------------
-    ----- 12. Media Queries -----
+    ----- 14. Media Queries -----
     -----------------------------
 */
 @media only screen and (max-width: 750px) {
