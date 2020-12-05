@@ -476,15 +476,19 @@ footer {
   margin: 0 auto 30px auto;
   overflow: hidden;
   background: #fff;
-  border-radius: 4px; }
+  border-radius: 4px;
+  height: 300px; }
+
+.project-image-wrapper {
+  height: 60%; }
 
 .project-image {
   float: left;
-  height: 200px; }
+  margin-top: 50px; }
 
 .project-info {
-  margin-left: 300px;
-  padding: 15px; }
+  margin-top: 20px;
+  text-align: center; }
   .project-info h3 {
     font-size: 1.5em;
     font-weight: 300;
@@ -494,6 +498,10 @@ footer {
     color: #74808a;
     margin: 0 0 15px 0;
     font-size: 0.9em; }
+  .project-info li {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0; }
 
 .no-image .project-info {
   position: relative;

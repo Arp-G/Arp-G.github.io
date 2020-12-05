@@ -661,16 +661,21 @@ footer {
     overflow: hidden;
     background: #fff;
     border-radius: 4px;
+    height: 300px;
+}
+
+.project-image-wrapper {
+    height: 60%
 }
 
 .project-image {
     float: left;
-    height: 200px;
+    margin-top: 50px;;
 }
 
 .project-info {
-    margin-left: 300px;
-    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
 
     h3 {
         font-size: 1.5em;
@@ -683,6 +688,12 @@ footer {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+    }
+
+    li {
+        list-style-type: none;
+        margin-left: 0;
+        padding-left: 0;
     }
 }
 
