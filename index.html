@@ -151,7 +151,7 @@
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Personal Projects</h2>
+        <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
@@ -163,16 +163,16 @@
                         <h3>csv2sql</h3>
                         <p>
                             Csv2Sql is a blazing fast fully automated tool to load huge CSV files into a RDBMS.
-                            It is build using genservers in elixir and also includes a GUI interface made using phoenix live view.
+                            It is build using genservers in elixir and also includes a realtime GUI interface made using phoenix live view.
+
                             <h4> Main Technologies Used:</h4>
                             <ul>
                                 <li>Elixir for core app logic</li>
                                 <li>Phoenix Live View for a realtime UI</li>
                             </ul>
-                            It uses some interesting elixir and phoenix concepts like Genservers, live view, etc
-                            to achieve blazing fast performance and provide real time information.
                         </p>
                         <a href="https://github.com/Arp-G/csv2sql">
+                            <i class="fa fa-github" aria-hidden="true"></i>
                             View Project
                         </a>
                     </div>
@@ -188,103 +188,39 @@
                     <div class="project-info">
                         <h3>BokBok</h3>
                         <p>
-                            BokBok is a simple chat application which you can use to chat with friends and family, it also allows you to meet new people and chat with them.
+                            BokBok is a chat application which you can use to chat with friends and family, it also allows you to meet new people and chat with them.
                             <h4> Main Technologies Used:</h4>
                             <ul>
                                 <li>Elixir and Phoenix for Backend API</li>
                                 <li>PostgreSQL as Database</li>
                                 <li>React native for an andriod mobile application</li>
                                 <li>Firebase for basic chat notifications</li>
+                                <li>Deployed on heroku</li>
                             </ul>
                         </p>
-                        <a href="https://github.com/Arp-G/BokBok">View Project</a>
+                        <a target="_blank" href="https://github.com/Arp-G/BokBok">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                            View Project
+                        </a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
             </div>
+            <p>
+                <em>View more projects <a target="_blank" href="https://github.com/Arp-G">here..</a></em>
+            </p>
         </div>
 
-        <h2 class="heading">Professional Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>GoGal</h3>
-                        <p>
-                            A women security mobile application.
-                        </p>
-                        <p>
-                            <strong>Role: </strong>     Lead backend developer, responsible for making APIs for the mobile application.
-                        </p>
-                        <p>
-                            Main Technologies Used:
-                            <ul>
-                                <li>Elixir and Phoenix for Backend API</li>
-                                <li>PostgreSQL and Cassandra as Database</li>
-                            </ul>
-                        </p>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Smart Gardener</h3>
-                        <p>
-                            Personalized vegetable garden planning and layout tool to help you grow healthy and tasty food.
-                        </p>
-                        <p>
-                            <strong>Main Role: </strong>
-                            Optimise and add new features to a drag and drop based garden planner made in react.
-                        </p>
-                        <p>
-                            Main Technologies Used:
-                            <ul>
-                                <li>React and Redux </li>
-                                <li>Ruby on Rails</li>
-                            </ul>
-                        </p>
-                        <a href="https://www.smartgardener.com/">View Project</a>
-                    </div>
-                </div>
-                    <!-- End .project-info -->
-
-                    <div class="project shadow-large">
-                        <!-- End .project-image -->
-                        <div class="project-info">
-                            <h3>CRM Notifications</h3>
-                            <p>
-                                A web application used to schedule and send bulk notifications in the form of SMS messages to users.
-                            </p>
-                            <p>
-                                <strong>Role: </strong> Implement new features and optimise exisitng functionality.
-
-                            </p>
-                            <p>
-                                Main Technologies Used:
-                                <ul>
-                                    <li>Elixir and Phoenix </li>
-                                </ul>
-                            </p>
-                        </div>
-                        <!-- End .project-info -->
-                    </div>
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
     <!-- End #projects -->
 
     <div id="skills">
         <h2 class="heading">Skills</h2>
-        <p>
-            I have used or studied about all the technologies listed below, please hover over any one of them to
-            know more about that skill.
+        <p class="skill-desc">
+            <em>
+                I have used or studied about all the technologies listed below, however I have varying expereince with them,
+                please hover over any one of them to know more about my experience on that topic.
+            </em>
         </p>
         <section>
             <h3>Primary technologies I work on</h3>
@@ -398,7 +334,7 @@
                     <i class="devicon-amazonwebservices-original colored"></i>
                     <span>AWS</span>
                 </li>
-                <li title="I have some working knowledge of Ansible and I have used it to setup by staging environments">
+                <li title="I have some working knowledge of Ansible and I have used it to setup server environments">
                     <img src="images/ansible.png" class="skill-img"/>
                     <span>Ansible</span>
                 </li>
@@ -425,16 +361,23 @@
 
     <div id="blogs">
         <h2 class="heading">
-            Find my blogs, talks and more stuff <a href="blogs.html">here</a>
+            Find my blogs, talks and more stuff <a target="_blank" href="blogs.html">here</a>
         </h2>
     </div>
 
     <footer id="contact">
         <div class="container">
             <div class="row">
+                <div class="col-12">
+                    <div class="pull-right connect-with-me">
+                        Connect with me
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2020 Arpan Ghoshal
+                        Copyright &copy; 2021 Arpan Ghoshal
                     </p>
                 </div>
                 <div class="col-sm-2 top">

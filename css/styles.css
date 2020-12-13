@@ -156,8 +156,14 @@ header {
   #mobile-menu-close i {
     vertical-align: middle; }
 
-footer {
-  padding: 50px 0; }
+.connect-with-me {
+  padding-top: 30px;
+  position: relative;
+  top: 20px;
+  left: -40px;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: brown; }
 
 .copyright {
   padding-top: 20px; }
@@ -476,15 +482,16 @@ footer {
   margin: 0 auto 30px auto;
   overflow: hidden;
   background: #fff;
-  border-radius: 4px;
-  height: 300px; }
+  border-radius: 4px; }
 
 .project-image-wrapper {
   height: 60%; }
 
 .project-image {
   float: left;
-  margin-top: 50px; }
+  margin-top: 50px;
+  min-height: 300px;
+  min-width: 300px; }
 
 .project-info {
   margin-top: 20px;
@@ -520,7 +527,10 @@ footer {
 #skills {
   padding: 50px 15px;
   text-align: center;
-  background-color: lightgrey; }
+  background-color: white; }
+  #skills .skill-desc {
+    width: 50%;
+    margin: auto; }
   #skills h2 {
     color: #374054;
     margin-bottom: 50px; }
@@ -537,7 +547,10 @@ footer {
     background: #e4e4ea;
     list-style: none;
     cursor: default;
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    border-radius: 10px; }
+  #skills li:hover {
+    background-color: lightsalmon; }
   #skills .skill-img {
     width: 25px;
     height: 25px; }
@@ -596,6 +609,8 @@ footer {
       text-align: left; } }
 
 @media only screen and (max-width: 768px) {
+  .connect-with-me {
+    display: none; }
   header {
     position: fixed;
     display: none;

@@ -246,8 +246,14 @@ header {
     }
 }
 
-footer {
-    padding: 50px 0;
+.connect-with-me {
+    padding-top: 30px;
+    position: relative;
+    top: 20px;
+    left: -40px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: brown;
 }
 
 .copyright {
@@ -661,7 +667,6 @@ footer {
     overflow: hidden;
     background: #fff;
     border-radius: 4px;
-    height: 300px;
 }
 
 .project-image-wrapper {
@@ -671,6 +676,8 @@ footer {
 .project-image {
     float: left;
     margin-top: 50px;;
+    min-height: 300px;
+    min-width: 300px;
 }
 
 .project-info {
@@ -719,7 +726,12 @@ footer {
 #skills {
     padding: 50px 15px;
     text-align: center;
-    background-color: lightgrey;
+    background-color: white;
+
+    .skill-desc {
+        width: 50%;
+        margin: auto;
+    }
 
     h2 {
         color: $heading;
@@ -742,6 +754,11 @@ footer {
         list-style: none;
         cursor: default;
         font-size: 1.2em;
+        border-radius: 10px;
+    }
+
+    li:hover {
+        background-color: lightsalmon;
     }
 
     .skill-img {
@@ -835,11 +852,14 @@ footer {
             text-align: left;
         }
     }
-
 }
 
 // Small Devices
 @media only screen and (max-width : 768px) {
+
+    .connect-with-me {
+        display: none;
+    }
 
     header {
         position: fixed;
@@ -910,7 +930,6 @@ footer {
     .social {
         text-align: center;
     }
-
 }
 
 // Extra Small Devices
