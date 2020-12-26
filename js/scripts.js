@@ -1,16 +1,17 @@
-/*!
-    Title: Dev Portfolio Template
-    Version: 1.2.2
-    Last Change: 03/25/2020
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
-
-    Description: This file contains all the scripts associated with the single-page
-    portfolio website.
-*/
-
 (function($) {
+
+    // Check if service worker is supported
+    // The Navigator object/interface represents the state and the identity of the user agent.
+    // It allows scripts to query it and to register themselves to carry on some activities.
+    if('serviceWorker' in navigator) {
+        // On window load register service worker
+        window.addEventListener('load', () => {
+            navigator.serviceWorker
+                .register('../sw_cached_site.js')
+                .then(reg => console.log('Service Worker: Registered'))
+                .catch(err => console.log(`Service Worker: Error: ${err}`));
+        })
+    }
 
     // Remove no-js class
     $('html').removeClass('no-js');
