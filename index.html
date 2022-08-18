@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Arpan's Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
@@ -54,7 +54,7 @@
         <div id="lead-content">
             <h1>Arpan Ghoshal</h1>
             <h2>Software Engineer</h2>
-            <a href="arpan_resume.pdf" class="btn-rounded-white">Download Resume</a>
+            <a href="assets/arpan_resume.pdf" target="_blank" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -77,7 +77,9 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Hi, I am Arpan, I am passionate about programming. I work as a full-stack web developer but I have interests in many languages and fields as well. I love learning new stuff, building awesome projects, and solving real-world challenges.
+                        Hi, I am Arpan, I am passionate about programming. I work as a full-stack web developer but I
+                        have interests in many languages and fields as well. I love learning new stuff, building awesome
+                        projects, and solving real-world challenges.
                     </p>
                     <br>
                     <p>
@@ -110,8 +112,8 @@
             <span class="education-date">2015 - 2019</span>
             <h4>
                 Bachelor of Technology in Computer Science
-                <p>(Maulana Abul Kalam Azad University of Technology, West Bengal)</p>
             </h4>
+            <p>(Maulana Abul Kalam Azad University of Technology, West Bengal)</p>
             <ul>
                 <li> Passed with 8.94 DGPA(Degree Grade Point Average) </li>
                 <li> Won several on campus coding competitions </li>
@@ -131,18 +133,37 @@
         </div>
 
         <div class="education-block">
-            <h3>Certifications</h3>
-            <span class="education-date">2018</span>
-            <h4></h4>
+            <h3>Certifications, Awards and Achievements</h3>
+            <br><br>
             <ul>
                 <li>
                     <div>
-                        Passed the <a href="https://www.youracclaim.com/badges/026e2907-c32e-460b-baf9-9930fe9c0f5d/public_url">Oracle Certified Associate, Java SE 8 Programmer</a>
+
+                        Awarded in the <a href="assets/barrier_breaker.pdf" target="_blank">"Barrier Breaker Awards"</a>
+                        by the client team for delivering high-quality features quarter after quarter,
+                        and independently responsible for delivering some of the big features in the product.
                     </div>
                 </li>
                 <li>
                     <div>
-                        Passed the <a href="https://www.youracclaim.com/badges/3707e953-5c69-49c3-91c0-c1a000495353/public_url">Oracle Certified Professional, Java SE 8 Programmer</a>
+                        Passed the <a
+                            href="https://www.youracclaim.com/badges/026e2907-c32e-460b-baf9-9930fe9c0f5d/public_url"
+                            target="_blank">Oracle
+                            Certified Associate, Java SE 8 Programmer</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        Passed the <a
+                            href="https://www.youracclaim.com/badges/3707e953-5c69-49c3-91c0-c1a000495353/public_url"
+                            target="_blank">Oracle
+                            Certified Professional, Java SE 8 Programmer</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        Recognized as <a href="images/employee_of_the_month_2020.jpg" target="_blank"> "Employee of the
+                            month" </a> for good performance.
                     </div>
                 </li>
             </ul>
@@ -152,51 +173,156 @@
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
+        <div class="container professional-projects">
+            <h2 class="heading">Professional Projects</h2>
+
+            <div class="grid-container">
+                <div class="grid-item project-item">
+                    <div class="shadow-large project-info">
+                        <h3>KUDO - Multilingual meetings platform</h3>
+                        <div> <strong> Role: </strong> </div>
+                        Created and maintained an application for recording meetings, live real-time captioning,
+                        and real-time broadcasting.
+                        The solution was single-handedly developed and maintained by me and is used in
+                        production by thousands of clients.
+
+                        <h4> Main Technologies Used:</h4>
+                        <div>
+                            <div>Ruby on Rails for backend</div>
+                            <div>PostgreSQL as main RDBMS</div>
+                            <div>Redis as cache and no-sql database</div>
+                            <div>Sidekiq for background job processing</div>
+                            <div>NodeJS for microservice</div>
+                            <div>FFMPEG for audio/video processing</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item project-item">
+                    <div class="shadow-large project-info">
+                        <h3>Smart Gardener - Online garden planner</h3>
+                        <div> <strong> Role: </strong> </div>
+                        Optimize an existing complex garden planner react app. Added new features, fixed bugs,
+                        and greatly improved performance.
+
+                        <h4> Main Technologies Used:</h4>
+                        <div>
+                            <div>Ruby on Rails for backend</div>
+                            <div>PostgreSQL as main RDBMS</div>
+                            <div>React JS for front end</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item project-item">
+                    <div class="shadow-large project-info">
+                        <h3>Smart Recruit - Recruitment and exams platform</h3>
+                        <div> <strong> Role: </strong> </div>
+                        Designed a code checker service for code evaluation during exams. Ported existing exam
+                        platform from react js to phoenix live view.
+                        <h4> Main Technologies Used:</h4>
+                        <div>
+                            <div>Elixir and Phoenix for backend</div>
+                            <div>Phoenix Live view</div>
+                            <div>MySQL as database</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item project-item">
+                    <div class="shadow-large project-info">
+                        <h3>CRM Notifications - Schedule and send bulk notifications platform</h3>
+                        <div> <strong> Role: </strong> </div>
+                        The application enabled users to send and manage bulk notifications. Worked with a small
+                        team to create the MVP.
+                        <h4> Main Technologies Used:</h4>
+                        <div>
+                            <div>Elixir and Phoenix for backend</div>
+                            <div>Oban for background job processing</div>
+                            <div>PostgreSQL as database</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item project-item">
+                    <div class="shadow-large project-info">
+                        <h3>GoGal - Women security mobile app</h3>
+                        <div> <strong> Role: </strong> </div>
+                        Main backend developer, designed APIs for the mobile API.
+                        <h4> Main Technologies Used:</h4>
+                        <div>
+                            <div>Elixir and Phoenix for backend</div>
+                            <div>PostgreSQL as database</div>
+                            <div>Cassandra as no-sql database for storing user chat messages</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item project-item">
+                    <div class="shadow-large">
+                        <div class="project-info">
+                            <h3>Data Migration</h3>
+                            <div> <strong> Role: </strong> </div>
+                            This task involved migrating data from other systems.
+                            It Involved writing lots of SQL queries and scripts along with understanding the schema
+                            of the existing data to be migrated.
+
+                            <h4> Main Technologies Used:</h4>
+                            <div>
+                                <div>SQL</div>
+                                <div>Ruby and elixir for creating scripts for transforming, loading and getting insights
+                                    from data</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container passion-projects">
+            <h2 class="heading">Passion Projects</h2>
+
+            <div class="grid-container">
+                <div class="grid-item project-item shadow-large">
                     <div class="project-image">
-                        <img src="images/csv2sql.png" />
+                        <img src="images/csv2sql.png" alt="csv2sql logo" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>csv2sql</h3>
                         <p>
                             Csv2Sql is a blazing fast fully automated tool to load huge CSV files into a RDBMS.
-                            It is build using genservers in elixir and also includes a realtime GUI interface made using phoenix live view.
-
-                            <h4> Main Technologies Used:</h4>
-                            <ul>
-                                <li>Elixir for core app logic</li>
-                                <li>Phoenix Live View for a realtime UI</li>
-                            </ul>
+                            It is build using genservers in elixir and also includes a realtime GUI interface made
+                            using phoenix live view.
                         </p>
+
+                        <h4> Main Technologies Used:</h4>
+                        <div>
+                            <div>Elixir for core app logic</div>
+                            <div>Phoenix Live View for a realtime UI</div>
+                        </div>
                         <a href="https://github.com/Arp-G/csv2sql">
                             <i class="fa fa-github" aria-hidden="true"></i>
                             View Project
                         </a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
 
-                <div class="project shadow-large">
+                <div class="grid-item project-item shadow-large">
                     <div class="project-image">
-                        <img src="images/pictionary.png" />
+                        <img src="images/pictionary.png" alt="pictionary logo" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Pictionary</h3>
                         <p>
                             Pictionary is an online web based multiplayer drawing and guessing game.
-
-                            <h4> Main Technologies Used:</h4>
-                            <ul>
-                                <li>Elixir for core app logic</li>
-                                <li>React js for the front end</li>
-                            </ul>
                         </p>
+                        <h4> Main Technologies Used:</h4>
+                        <div>
+                            <div>Elixir for core app logic</div>
+                            <div>React js for the front end</div>
+                        </div>
                         <p>
                             <a href="https://pictionary-game.netlify.app/">
                                 Play the game!
@@ -207,83 +333,45 @@
                             View Project
                         </a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
 
-                <div class="project shadow-large">
+                <div class="grid-item project-item shadow-large">
                     <div class="project-image">
-                        <img src="images/stranger.png" width=150 height=100 />
+                        <img src="images/bokbok.png" alt="bokbok logo" />
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Stranger</h3>
-                        <p>
-                            Stranger allows you connect with random people around the world. <br>
-                            Connect with either video or text chat and make new friends.
-
-                            <h4> Main Technologies Used:</h4>
-                            <ul>
-                                <li>Elixir for core app logic</li>
-                                <li>Phoenix Live view for rich real time UI experience</li>
-                                <li>Mongo DB</li>
-                                <li>OpenTok for video communication</li>
-                            </ul>
-                        </p>
-                        <p>
-                            <a href="https://strangerz.herokuapp.com">
-                                View the website
-                            </a>
-                        </p>
-                        <a href="https://github.com/Arp-G/stranger">
-                            <i class="fa fa-github" aria-hidden="true"></i>
-                            View Project
-                        </a>
-                        <br>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/bokbok.png" />
-                    </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
                         <h3>BokBok</h3>
                         <p>
-                            BokBok is a chat application which you can use to chat with friends and family, it also allows you to meet new people and chat with them.
-                            <h4> Main Technologies Used:</h4>
-                            <ul>
-                                <li>Elixir and Phoenix for Backend API</li>
-                                <li>PostgreSQL as Database</li>
-                                <li>React native for an andriod mobile application</li>
-                                <li>Firebase for basic chat notifications</li>
-                                <li>Deployed on heroku</li>
-                            </ul>
+                            BokBok is a chat application which you can use to chat with friends and family, it also
+                            allows you to meet new people and chat with them.
                         </p>
+                        <h4> Main Technologies Used:</h4>
+                        <div>
+                            <div>Elixir and Phoenix for Backend API</div>
+                            <div>PostgreSQL as Database</div>
+                            <div>React native for an android mobile application</div>
+                            <div>Firebase for basic chat notifications</div>
+                            <div>Deployed on heroku</div>
+                        </div>
                         <a target="_blank" href="https://github.com/Arp-G/BokBok">
                             <i class="fa fa-github" aria-hidden="true"></i>
                             View Project
                         </a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
             </div>
-            <p>
-                <em>View more projects <a target="_blank" href="https://github.com/Arp-G">here..</a></em>
+            <p> <em>View many more passion projects <a target="_blank" href="https://github.com/Arp-G">here..</a></em>
             </p>
         </div>
-
+    </div>
     <!-- End #projects -->
 
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <p class="skill-desc">
             <em>
-                I have used or studied about all the technologies listed below, however I have varying expereince with them,
+                I have used or studied about all the technologies listed below, however I have varying expereince with
+                them,
                 please hover over any one of them to know more about my experience on that topic.
             </em>
         </p>
@@ -291,20 +379,21 @@
             <h3>Primary technologies I work on</h3>
             <ul>
                 <li title="
-                I primarly work on elixir, I have experience with creating several personal and professional elixir projects,
+                I primarily work on elixir, I have experience with creating several personal and professional elixir projects,
                 I have reads several elixir books and I have a deep interest in the language ">
-                    <img src="images/elixir.png" class="skill-img"/>
+                    <img src="images/elixir.png" class="skill-img" alt="elixir logo" />
                     Elixir
                 </li>
-                <li title="I have used phoenix along withh ecto for making awesome web aplications and APIs">
-                    <img src="images/phoenix.png" class="skill-img"/>
+                <li title="I have used phoenix along with ecto for making awesome web applications and APIs">
+                    <img src="images/phoenix.png" class="skill-img" alt="phoenix logo" />
                     Phoenix
                 </li>
-                <li title="I am familar with ROR and have used it in both personal and professional projects">
+                <li title="I am familiar with ROR and have used it in both personal and professional projects">
                     <i class="devicon-rails-plain colored"></i>
                     <span>Ruby on Rails</span>
                 </li>
-                <li title="I have working knowledge of react and have used it in both personal and professional projects">
+                <li
+                    title="I have working knowledge of react and have used it in both personal and professional projects">
                     <i class="devicon-react-original colored"></i>
                     <span>React</span>
                 </li>
@@ -325,7 +414,7 @@
                     <i class="devicon-bootstrap-plain colored"></i>
                     <span>Bootstrap</span>
                 </li>
-                <li title="I am proficient in javascript and lastest ES6 features">
+                <li title="I am proficient in javascript and latest ES6 features">
                     <i class="devicon-javascript-plain colored"></i>
                     <span>Javascript</span>
                 </li>
@@ -333,12 +422,14 @@
                     <i class="devicon-jquery-plain-wordmark colored"></i>
                     <span>jQuery</span>
                 </li>
-                <li title="I have working knowledge of redux and have used it in both personal and professional projects">
-                    <img src="images/redux.webp" class="skill-img"/>
+                <li
+                    title="I have working knowledge of redux and have used it in both personal and professional projects">
+                    <img src="images/redux.webp" class="skill-img" alt="redux logo" />
                     <span>Redux</span>
                 </li>
-                <li title="I have a working idea of different other tools and technologies like npm, yarn, webpacker, babel, etc">
-                    <img src="images/others.webp" class="skill-img"/>
+                <li
+                    title="I have a working idea of different other tools and technologies like npm, yarn, webpack, babel, etc">
+                    <img src="images/others.webp" class="skill-img" alt="others logo" />
                     Others
                 </li>
             </ul>
@@ -346,15 +437,16 @@
         <section>
             <h3>Other technologies I know</h3>
             <ul>
-                <li title="I am orcale certified java professional but haven't used the language in recent times">
+                <li title="I am Oracle certified java professional but haven't used the language in recent times">
                     <i class="devicon-java-plain colored"></i>
                     <span>Java</span>
                 </li>
-                <li title="I have an interest in Rust and I can code in rust, although haven't used it professionaly">
+                <li title="I have an interest in Rust and I can code in rust, although haven't used it professionally">
                     <i class="devicon-rust-plain colored"></i>
                     <span>Rust</span>
                 </li>
-                <li title="I used to write C and C++ code in college however I haven't used the language in recent times">
+                <li
+                    title="I used to write C and C++ code in college however I haven't used the language in recent times">
                     <i class="devicon-cplusplus-plain colored"></i>
                     <span>C++</span>
                 </li>
@@ -378,15 +470,15 @@
             </ul>
             <h3>No sql databases I have used</h3>
             <ul>
-                <li title="I have some expereince with cassandra, I have used it in a professional project">
-                    <img src="images/cassandra.webp" class="skill-img"/>
+                <li title="I have some experience with cassandra, I have used it in a professional project">
+                    <img src="images/cassandra.webp" class="skill-img" alt="cassandra logo" />
                     <span>Cassandra</span>
                 </li>
-                <li title="I have some expereince with redis, I have used it in a professional projects">
+                <li title="I have some experience with redis, I have used it in a professional projects">
                     <i class="devicon-redis-plain"></i>
                     <span>Redis</span>
                 </li>
-                <li title="I have some expereince with mongo db, I have used it in professional and personal project">
+                <li title="I have some experience with mongo db, I have used it in professional and personal project">
                     <i class="devicon-mongodb-plain"></i>
                     <span>MongoDb</span>
                 </li>
@@ -396,7 +488,7 @@
             <h3>Other tools and technologies I familiar with</h3>
             <ul>
                 <li title="I am familiar with elastic search, however I haven't used it professionally">
-                    <img src="images/elasticsearch.webp" class="skill-img"/>
+                    <img src="images/elasticsearch.webp" class="skill-img" alt="elastic search logo" />
                     <span>Elastic search</span>
                 </li>
                 <li title="I am familiar with heroku and I have deployed several projects on heroku">
@@ -408,7 +500,7 @@
                     <span>AWS</span>
                 </li>
                 <li title="I have some working knowledge of Ansible and I have used it to setup server environments">
-                    <img src="images/ansible.png" class="skill-img"/>
+                    <img src="images/ansible.png" class="skill-img" alt="ansible logo" />
                     <span>Ansible</span>
                 </li>
                 <li title="I have a working knowledge of Docker, and have dockerized many web applications">
@@ -416,14 +508,14 @@
                     <span>Docker</span>
                 </li>
                 <li title="I regularly use git and github for version control">
-                    <img src="images/github.png" class="skill-img"/>
+                    <img src="images/github.png" class="skill-img" alt="github logo" />
                     <span>Github</span>
                 </li>
-                <li title="I am familiat with setting up CI pipelines via github actions">
-                    <img src="images/github_actions.png" class="skill-img"/>
-                    <span>Github actitons</span>
+                <li title="I am familiar with setting up CI pipelines via github actions">
+                    <img src="images/github_actions.png" class="skill-img" alt="github actions logo" />
+                    <span>Github actions</span>
                 </li>
-                <li title="I use ubuntu linux as my OS for developement">
+                <li title="I use ubuntu linux as my OS for development">
                     <i class="devicon-linux-plain colored"></i>
                     <span>Linux</span>
                 </li>
@@ -464,13 +556,16 @@
                             <p><a href="mailto:arpanghoshal3@gmail.com"><i class="fa fa-envelope"></i></a></p>
                         </li>
                         <li>
-                            <a href="https://github.com/Arp-G" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/Arp-G" target="_blank"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/arpan-ghoshal-063665142" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/arpan-ghoshal-063665142" target="_blank"><i
+                                    class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/ArpRokzz/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/ArpRokzz/" target="_blank"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
