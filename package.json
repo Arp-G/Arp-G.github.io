@@ -1,7 +1,7 @@
 {
-  "name": "devportfolio-template",
+  "name": "Arpan's Portfolio",
   "version": "1.2.2",
-  "description": "",
+  "description": "Arpan's Portfolio Website",
   "main": "js/scripts.js",
   "scripts": {
     "watch": "gulp watch",
@@ -15,7 +15,7 @@
     "coding",
     "dev"
   ],
-  "author": "Ryan Fitzgerald",
+  "author": "Arpan Ghoshal",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.9.0",
